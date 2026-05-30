@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+#whole{
+  color: rgb(83 64 45);
+  background: rgb(25, 21, 15);
+}
+
+#text {
+  color:rgb(132 115 98);
+}
+
+#NewNote{
+  background: rgb(201 129 29);
+}
+
+#cards{
+  background-color: rgb(132 115 98);
+  color: white;
+}
