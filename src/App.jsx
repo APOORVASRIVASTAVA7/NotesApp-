@@ -32,7 +32,7 @@ const App = () => {
 
   return (
     <div id='whole' className='w-full h-screen'>
-      <div className='px-95 py-20' >
+      <div className='ax-w-7xl mx-auto px-4 md:px-8 py-10' >
         <Navbar />
         <Searchbar />
         <RecentlyCards cards={cards} />

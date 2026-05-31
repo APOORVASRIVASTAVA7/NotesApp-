@@ -4,10 +4,11 @@ const RecentlyCards = (props) => {
   return (
     <div>
       RECENTLY UPDATED
-      <div className='flex items-center flex-nowrap gap-2 py-6'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 py-6'>
 
         {props.cards.map((card) => (
-          <div key={card.id} id='cards' className='bg-white rounded-2xl shadow-md p-5 w-full sm:w-[300px] h-40'>
+
+          <div key={card.id} id='cards' className='bg-white rounded-2xl shadow-md p-5 min-h-40'>
 
             <p className='text-xl font-serif'>{card.heading}</p>
 
